@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    background: #005BAA no-repeat center center;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url('/img/office.svg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 80 px 0;
+    width: 100%;
+    height: 715px;
+}
+
+header .logo {
+    text-transform: uppercase;
+}
+
+header .logo img {
+    height: 45px;
+    width: auto;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+header nav ul li.active::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+
+header nav ul li:not(.active) a:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero--info {
+    width: 1190px;
+    padding-top: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero--info h1 {
+    color: #005BAA;
+    font-size: 110px;
+    z-index: 3;
+    text-align: center;
+    width: 1190px;
+}
+
+.hero img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+/* Секция с информацией */
+.trending {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.trending .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+
+/* о нас */
+.we {
+    width: 100%;
+    background: #FFFFFF no-repeat center center;
+    background-size: cover;
+    padding: 20px 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.about h2 {
+   color: #005BAA;
+   font-size: 96px;
+   padding-bottom: 20px;
+   padding: 30px 0;
+}
+
+.nasa {
+   position: relative;
+}
+
+.holod p {
+    color: #005BAA;
+    font-size: 40px;
+    padding-bottom: 30px;
+    line-height: 150%;
+}
+
+.nasa {
+    background: url('/img/snow.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 80 px 0;
+    width: 100%;
+    height: 730px;
+}
+
+
+/* товары */
+.tov {
+    width: 100%;
+    background: #FFFFFF no-repeat center center;
+    background-size: cover;
+    padding: 20px 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.prod h2 {
+   color: #005BAA;
+   font-size: 96px;
+   padding-bottom: 20px;
+   padding: 30px 0;
+}
+
+.tehno {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tehno .tutu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+
+/* контакты */
+.post {
+    width: 100%;
+    background: #FFFFFF no-repeat center center;
+    background-size: cover;
+    padding: 20px 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nomer h2 {
+    color: #005BAA;
+   font-size: 96px;
+   padding-bottom: 20px;
+   padding: 30px 0;
+}
+
+.dress {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dress .zvon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.dress .zvon p {
+    color: #005BAA;
+    font-size: 36px;
+    text-align: center;
+    width: 620px;
+    height: 550px;
+}
+
+
+/* Нижняя секция */
+.under {
+    width: 100%;
+    background: #005BAA no-repeat center center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.contact {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1340px;
+    margin: 0 auto;
+    font-size: 36px;
+    color: #FFFFFF;
+}
